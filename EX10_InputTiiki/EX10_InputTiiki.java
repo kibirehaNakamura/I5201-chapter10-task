@@ -45,7 +45,7 @@ public class EX10_InputTiiki {
 			/* 面積の入力 */
 			int bufint;	//これはint型変換時のバッファ
 			while(true) {
-				buf = ki.readKey("面積(㎢)");
+				buf = ki.readKey("面積(km2)");
 				try {
 					bufint = Integer.parseInt(buf);
 				} catch(NumberFormatException e) {
